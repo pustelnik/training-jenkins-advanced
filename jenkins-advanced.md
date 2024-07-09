@@ -7,8 +7,8 @@ theme: nord
 footer: Jenkins Advanced - DevOps Intership
 ---
 
-# Jenkins Advanced
-## By Jakub Pustelnik
+# Sonar, OWASP, Trivy and Jenkins Advanced
+## By Jakub Pustelnik and Bartosz Koziak
 
 ---
 # Agenda
@@ -19,6 +19,10 @@ footer: Jenkins Advanced - DevOps Intership
   * Organization Pipeline
   * Casc Plugin
 * Best Practices
+
+---
+https://github.com/pustelnik/training-jenkins-advanced
+![alt text](images/presentation_qr.png)
 
 ---
 <style scoped>section { font-size: 20px; }</style>
@@ -160,6 +164,7 @@ stage('job 08') {
 ---
 # Configuration as a Code Example
 https://github.com/pustelnik/jenkins-training-environment
+![alt text](images/training_env_qr.png)
 
 ---
 # Best Practices
@@ -170,6 +175,14 @@ https://github.com/pustelnik/jenkins-training-environment
 * Remember about **KISS** and **DRY**
 * Follow https://www.jenkins.io/doc/book/pipeline/pipeline-best-practices/
 * Never implement https://github.com/auchenberg/volkswagen
+
+---
+# Lab #3 (or Homework)
+To existing jobs add following:
+* Maven cache (we don't want to pull same dependencies all the time we run jenkins job)
+* Trivy cache
+* Report build status on Github Pull Requests
+
 
 ---
 # Thank you!
